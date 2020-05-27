@@ -1,7 +1,9 @@
+@import "../utilities/variables";
+
 /* ============================================= */
 /*              Media Queries                    */
 /* ============================================= */
-@media (min-width: 768px) {
+@media (min-width: $large-breakpoint) {
 
   .container {
     max-width: 1400px;
